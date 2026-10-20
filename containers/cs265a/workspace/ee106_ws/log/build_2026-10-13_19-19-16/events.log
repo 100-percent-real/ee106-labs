@@ -1,0 +1,531 @@
+[0.000000] (-) TimerEvent: {}
+[0.001157] (ee106f26) JobQueued: {'identifier': 'ee106f26', 'dependencies': OrderedDict()}
+[0.002532] (ee106f26) JobStarted: {'identifier': 'ee106f26'}
+[0.038286] (ee106f26) JobProgress: {'identifier': 'ee106f26', 'progress': 'cmake'}
+[0.096875] (-) TimerEvent: {}
+[0.114515] (ee106f26) Command: {'cmd': ['/usr/bin/cmake', '/workspace/ee106_ws/src/ee106f26', '-DCMAKE_INSTALL_PREFIX=/workspace/ee106_ws/install/ee106f26'], 'cwd': '/workspace/ee106_ws/build/ee106f26', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'xfce4', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'd17a993100f8', 'SSH_AGENT_PID': '57', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-aC6rBCCam3,guid=4e1284464abd312d6f65a9f96acebd3e', 'COLORTERM': 'truecolor', 'container': 'podman', 'ROS_DISTRO': 'jazzy', 'WINDOWID': '35716190', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/d17a993100f8:@/tmp/.ICE-unix/30,unix/d17a993100f8:/tmp/.ICE-unix/30', 'XDG_MENU_PREFIX': 'xfce-', 'DISPLAY': ':1.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/tmp/ssh-ZUgzQ3MGVqnq/agent.56', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'xfce4', 'PWD': '/workspace/ee106_ws/build/ee106f26', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'VNC_PW': 'password', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.197138] (-) TimerEvent: {}
+[0.298353] (-) TimerEvent: {}
+[0.399893] (-) TimerEvent: {}
+[0.444416] (ee106f26) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.500053] (-) TimerEvent: {}
+[0.601152] (-) TimerEvent: {}
+[0.702316] (-) TimerEvent: {}
+[0.730678] (ee106f26) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.801069] (ee106f26) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.805234] (-) TimerEvent: {}
+[0.906211] (-) TimerEvent: {}
+[1.007843] (-) TimerEvent: {}
+[1.109714] (-) TimerEvent: {}
+[1.210851] (-) TimerEvent: {}
+[1.312190] (-) TimerEvent: {}
+[1.413278] (-) TimerEvent: {}
+[1.514616] (-) TimerEvent: {}
+[1.615509] (-) TimerEvent: {}
+[1.716635] (-) TimerEvent: {}
+[1.818170] (-) TimerEvent: {}
+[1.919235] (-) TimerEvent: {}
+[1.945810] (ee106f26) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.019368] (-) TimerEvent: {}
+[2.072211] (ee106f26) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.075443] (ee106f26) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.077962] (ee106f26) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.119500] (-) TimerEvent: {}
+[2.126887] (ee106f26) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.219676] (-) TimerEvent: {}
+[2.321400] (-) TimerEvent: {}
+[2.422486] (-) TimerEvent: {}
+[2.523644] (-) TimerEvent: {}
+[2.624958] (-) TimerEvent: {}
+[2.726234] (-) TimerEvent: {}
+[2.827194] (-) TimerEvent: {}
+[2.928382] (-) TimerEvent: {}
+[3.029485] (-) TimerEvent: {}
+[3.130665] (-) TimerEvent: {}
+[3.231825] (-) TimerEvent: {}
+[3.263063] (ee106f26) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.332107] (-) TimerEvent: {}
+[3.391564] (ee106f26) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.395454] (ee106f26) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.398806] (ee106f26) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.432243] (-) TimerEvent: {}
+[3.490998] (ee106f26) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.532443] (-) TimerEvent: {}
+[3.633578] (-) TimerEvent: {}
+[3.728489] (ee106f26) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.733723] (-) TimerEvent: {}
+[3.834916] (-) TimerEvent: {}
+[3.936457] (-) TimerEvent: {}
+[4.038008] (-) TimerEvent: {}
+[4.138906] (-) TimerEvent: {}
+[4.240084] (-) TimerEvent: {}
+[4.341406] (-) TimerEvent: {}
+[4.442816] (-) TimerEvent: {}
+[4.544328] (-) TimerEvent: {}
+[4.556882] (ee106f26) StdoutLine: {'line': b'-- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[4.596997] (ee106f26) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[4.644495] (-) TimerEvent: {}
+[4.745530] (-) TimerEvent: {}
+[4.847389] (-) TimerEvent: {}
+[4.948604] (-) TimerEvent: {}
+[5.044890] (ee106f26) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.048710] (-) TimerEvent: {}
+[5.149844] (-) TimerEvent: {}
+[5.214892] (ee106f26) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.249983] (-) TimerEvent: {}
+[5.351175] (-) TimerEvent: {}
+[5.371339] (ee106f26) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.451315] (-) TimerEvent: {}
+[5.544012] (ee106f26) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.551455] (-) TimerEvent: {}
+[5.652707] (-) TimerEvent: {}
+[5.753755] (-) TimerEvent: {}
+[5.854704] (-) TimerEvent: {}
+[5.955983] (-) TimerEvent: {}
+[6.057568] (-) TimerEvent: {}
+[6.107441] (ee106f26) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[6.157738] (-) TimerEvent: {}
+[6.162288] (ee106f26) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.257901] (-) TimerEvent: {}
+[6.358881] (-) TimerEvent: {}
+[6.460280] (-) TimerEvent: {}
+[6.491543] (ee106f26) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[6.555418] (ee106f26) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[6.560405] (-) TimerEvent: {}
+[6.633242] (ee106f26) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.660535] (-) TimerEvent: {}
+[6.761816] (-) TimerEvent: {}
+[6.863038] (-) TimerEvent: {}
+[6.964216] (-) TimerEvent: {}
+[7.014043] (ee106f26) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[7.064439] (-) TimerEvent: {}
+[7.076900] (ee106f26) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[7.164597] (-) TimerEvent: {}
+[7.265658] (-) TimerEvent: {}
+[7.365479] (ee106f26) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[7.367984] (-) TimerEvent: {}
+[7.469052] (-) TimerEvent: {}
+[7.570079] (-) TimerEvent: {}
+[7.671275] (-) TimerEvent: {}
+[7.772464] (-) TimerEvent: {}
+[7.873753] (-) TimerEvent: {}
+[7.975112] (-) TimerEvent: {}
+[8.076095] (-) TimerEvent: {}
+[8.177490] (-) TimerEvent: {}
+[8.278931] (-) TimerEvent: {}
+[8.380094] (-) TimerEvent: {}
+[8.481218] (-) TimerEvent: {}
+[8.582349] (-) TimerEvent: {}
+[8.683284] (-) TimerEvent: {}
+[8.784240] (-) TimerEvent: {}
+[8.885687] (-) TimerEvent: {}
+[8.986905] (-) TimerEvent: {}
+[9.088176] (-) TimerEvent: {}
+[9.189509] (-) TimerEvent: {}
+[9.290709] (-) TimerEvent: {}
+[9.392434] (-) TimerEvent: {}
+[9.493680] (-) TimerEvent: {}
+[9.595592] (-) TimerEvent: {}
+[9.616575] (ee106f26) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[9.695743] (-) TimerEvent: {}
+[9.796729] (-) TimerEvent: {}
+[9.897784] (-) TimerEvent: {}
+[9.998929] (-) TimerEvent: {}
+[10.100183] (-) TimerEvent: {}
+[10.201333] (-) TimerEvent: {}
+[10.302500] (-) TimerEvent: {}
+[10.403780] (-) TimerEvent: {}
+[10.505053] (-) TimerEvent: {}
+[10.606305] (-) TimerEvent: {}
+[10.707459] (-) TimerEvent: {}
+[10.808696] (-) TimerEvent: {}
+[10.909832] (-) TimerEvent: {}
+[11.011102] (-) TimerEvent: {}
+[11.112670] (-) TimerEvent: {}
+[11.213880] (-) TimerEvent: {}
+[11.315044] (-) TimerEvent: {}
+[11.416409] (-) TimerEvent: {}
+[11.517629] (-) TimerEvent: {}
+[11.619032] (-) TimerEvent: {}
+[11.720644] (-) TimerEvent: {}
+[11.821880] (-) TimerEvent: {}
+[11.923163] (-) TimerEvent: {}
+[12.024618] (-) TimerEvent: {}
+[12.125548] (-) TimerEvent: {}
+[12.226527] (-) TimerEvent: {}
+[12.327667] (-) TimerEvent: {}
+[12.429029] (-) TimerEvent: {}
+[12.530348] (-) TimerEvent: {}
+[12.631761] (-) TimerEvent: {}
+[12.733017] (-) TimerEvent: {}
+[12.834196] (-) TimerEvent: {}
+[12.935443] (-) TimerEvent: {}
+[13.036578] (-) TimerEvent: {}
+[13.137984] (-) TimerEvent: {}
+[13.239115] (-) TimerEvent: {}
+[13.340312] (-) TimerEvent: {}
+[13.441728] (-) TimerEvent: {}
+[13.543007] (-) TimerEvent: {}
+[13.644017] (-) TimerEvent: {}
+[13.745432] (-) TimerEvent: {}
+[13.847467] (-) TimerEvent: {}
+[13.949044] (-) TimerEvent: {}
+[14.111100] (-) TimerEvent: {}
+[14.212650] (-) TimerEvent: {}
+[14.314291] (-) TimerEvent: {}
+[14.415689] (-) TimerEvent: {}
+[14.517211] (-) TimerEvent: {}
+[14.851575] (-) TimerEvent: {}
+[14.952990] (-) TimerEvent: {}
+[15.461211] (-) TimerEvent: {}
+[15.562631] (-) TimerEvent: {}
+[15.663863] (-) TimerEvent: {}
+[15.764941] (-) TimerEvent: {}
+[15.866189] (-) TimerEvent: {}
+[15.967423] (-) TimerEvent: {}
+[16.068842] (-) TimerEvent: {}
+[16.117077] (ee106f26) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[16.169004] (-) TimerEvent: {}
+[16.270245] (-) TimerEvent: {}
+[16.371502] (-) TimerEvent: {}
+[16.472805] (-) TimerEvent: {}
+[16.573922] (-) TimerEvent: {}
+[16.675080] (-) TimerEvent: {}
+[16.776227] (-) TimerEvent: {}
+[16.878172] (-) TimerEvent: {}
+[16.979825] (-) TimerEvent: {}
+[17.081264] (-) TimerEvent: {}
+[17.182622] (-) TimerEvent: {}
+[17.283928] (-) TimerEvent: {}
+[17.385531] (-) TimerEvent: {}
+[17.486845] (-) TimerEvent: {}
+[17.588161] (-) TimerEvent: {}
+[17.689509] (-) TimerEvent: {}
+[17.790570] (-) TimerEvent: {}
+[17.897376] (-) TimerEvent: {}
+[17.998592] (-) TimerEvent: {}
+[18.099866] (-) TimerEvent: {}
+[18.201184] (-) TimerEvent: {}
+[18.204859] (ee106f26) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.261942] (ee106f26) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[18.301351] (-) TimerEvent: {}
+[18.402957] (-) TimerEvent: {}
+[18.408420] (ee106f26) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[18.503133] (-) TimerEvent: {}
+[18.604439] (-) TimerEvent: {}
+[18.705814] (-) TimerEvent: {}
+[18.807170] (-) TimerEvent: {}
+[18.908436] (-) TimerEvent: {}
+[18.972619] (ee106f26) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[19.008617] (-) TimerEvent: {}
+[19.109776] (-) TimerEvent: {}
+[19.210944] (-) TimerEvent: {}
+[19.312153] (-) TimerEvent: {}
+[19.413515] (-) TimerEvent: {}
+[19.514886] (-) TimerEvent: {}
+[19.616636] (-) TimerEvent: {}
+[19.743969] (-) TimerEvent: {}
+[19.845835] (-) TimerEvent: {}
+[19.947643] (-) TimerEvent: {}
+[20.048863] (-) TimerEvent: {}
+[20.150802] (-) TimerEvent: {}
+[20.252047] (-) TimerEvent: {}
+[20.380782] (-) TimerEvent: {}
+[20.482138] (-) TimerEvent: {}
+[20.583872] (-) TimerEvent: {}
+[20.685055] (-) TimerEvent: {}
+[20.786340] (-) TimerEvent: {}
+[20.887670] (-) TimerEvent: {}
+[20.988908] (-) TimerEvent: {}
+[21.090297] (-) TimerEvent: {}
+[21.191523] (-) TimerEvent: {}
+[21.222601] (ee106f26) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[21.291756] (-) TimerEvent: {}
+[21.307322] (ee106f26) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[21.391888] (-) TimerEvent: {}
+[21.493663] (-) TimerEvent: {}
+[21.595176] (-) TimerEvent: {}
+[21.702721] (-) TimerEvent: {}
+[21.804013] (-) TimerEvent: {}
+[21.904957] (-) TimerEvent: {}
+[22.006115] (-) TimerEvent: {}
+[22.107251] (-) TimerEvent: {}
+[22.208769] (-) TimerEvent: {}
+[22.309945] (-) TimerEvent: {}
+[22.411127] (-) TimerEvent: {}
+[22.512282] (-) TimerEvent: {}
+[22.613527] (-) TimerEvent: {}
+[22.714606] (-) TimerEvent: {}
+[22.816018] (-) TimerEvent: {}
+[22.917054] (-) TimerEvent: {}
+[22.977159] (ee106f26) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[22.981080] (ee106f26) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[23.017177] (-) TimerEvent: {}
+[23.086288] (ee106f26) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[23.117298] (-) TimerEvent: {}
+[23.129242] (ee106f26) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[23.217420] (-) TimerEvent: {}
+[23.318219] (-) TimerEvent: {}
+[23.419349] (-) TimerEvent: {}
+[23.520578] (-) TimerEvent: {}
+[23.613673] (ee106f26) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[23.620702] (-) TimerEvent: {}
+[23.721725] (-) TimerEvent: {}
+[23.822918] (-) TimerEvent: {}
+[23.924141] (-) TimerEvent: {}
+[24.025256] (-) TimerEvent: {}
+[24.126561] (-) TimerEvent: {}
+[24.227734] (-) TimerEvent: {}
+[24.328689] (-) TimerEvent: {}
+[24.404905] (ee106f26) StdoutLine: {'line': b'-- Configuring done (24.2s)\n'}
+[24.428923] (-) TimerEvent: {}
+[24.530212] (-) TimerEvent: {}
+[24.631487] (-) TimerEvent: {}
+[24.732743] (-) TimerEvent: {}
+[24.833867] (-) TimerEvent: {}
+[24.934992] (-) TimerEvent: {}
+[25.036205] (-) TimerEvent: {}
+[25.137497] (-) TimerEvent: {}
+[25.238970] (-) TimerEvent: {}
+[25.340169] (-) TimerEvent: {}
+[25.441307] (-) TimerEvent: {}
+[25.542568] (-) TimerEvent: {}
+[25.643657] (-) TimerEvent: {}
+[25.744850] (-) TimerEvent: {}
+[25.845983] (-) TimerEvent: {}
+[25.947280] (-) TimerEvent: {}
+[26.048466] (-) TimerEvent: {}
+[26.149768] (-) TimerEvent: {}
+[26.251291] (-) TimerEvent: {}
+[26.352419] (-) TimerEvent: {}
+[26.454215] (-) TimerEvent: {}
+[26.555494] (-) TimerEvent: {}
+[26.656869] (-) TimerEvent: {}
+[26.758098] (-) TimerEvent: {}
+[26.859160] (-) TimerEvent: {}
+[26.960270] (-) TimerEvent: {}
+[27.061395] (-) TimerEvent: {}
+[27.162663] (-) TimerEvent: {}
+[27.263851] (-) TimerEvent: {}
+[27.364965] (-) TimerEvent: {}
+[27.466171] (-) TimerEvent: {}
+[27.567447] (-) TimerEvent: {}
+[27.668396] (-) TimerEvent: {}
+[27.769326] (-) TimerEvent: {}
+[27.870498] (-) TimerEvent: {}
+[27.971591] (-) TimerEvent: {}
+[28.006311] (ee106f26) StdoutLine: {'line': b'-- Generating done (3.3s)\n'}
+[28.071788] (-) TimerEvent: {}
+[28.172886] (-) TimerEvent: {}
+[28.273953] (-) TimerEvent: {}
+[28.375330] (-) TimerEvent: {}
+[28.477238] (-) TimerEvent: {}
+[28.578495] (-) TimerEvent: {}
+[28.680016] (-) TimerEvent: {}
+[28.781554] (-) TimerEvent: {}
+[28.882648] (-) TimerEvent: {}
+[28.983813] (-) TimerEvent: {}
+[29.085193] (-) TimerEvent: {}
+[29.186414] (-) TimerEvent: {}
+[29.287489] (-) TimerEvent: {}
+[29.388627] (-) TimerEvent: {}
+[29.490461] (-) TimerEvent: {}
+[29.591808] (-) TimerEvent: {}
+[29.693321] (-) TimerEvent: {}
+[29.704839] (ee106f26) StdoutLine: {'line': b'-- Build files have been written to: /workspace/ee106_ws/build/ee106f26\n'}
+[29.716502] (ee106f26) CommandEnded: {'returncode': 0}
+[29.726198] (ee106f26) JobProgress: {'identifier': 'ee106f26', 'progress': 'build'}
+[29.735157] (ee106f26) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ee106_ws/build/ee106f26', '--', '-j12', '-l12'], 'cwd': '/workspace/ee106_ws/build/ee106f26', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'xfce4', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'd17a993100f8', 'SSH_AGENT_PID': '57', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-aC6rBCCam3,guid=4e1284464abd312d6f65a9f96acebd3e', 'COLORTERM': 'truecolor', 'container': 'podman', 'ROS_DISTRO': 'jazzy', 'WINDOWID': '35716190', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/d17a993100f8:@/tmp/.ICE-unix/30,unix/d17a993100f8:/tmp/.ICE-unix/30', 'XDG_MENU_PREFIX': 'xfce-', 'DISPLAY': ':1.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/tmp/ssh-ZUgzQ3MGVqnq/agent.56', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'xfce4', 'PWD': '/workspace/ee106_ws/build/ee106f26', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'America/Los_Angeles', 'VNC_PW': 'password', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[29.793476] (-) TimerEvent: {}
+[29.894852] (-) TimerEvent: {}
+[29.996329] (-) TimerEvent: {}
+[30.097489] (-) TimerEvent: {}
+[30.185040] (ee106f26) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[30.197594] (-) TimerEvent: {}
+[30.215760] (ee106f26) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[30.246162] (ee106f26) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_ee106f26\n'}
+[30.297719] (-) TimerEvent: {}
+[30.398777] (-) TimerEvent: {}
+[30.457585] (ee106f26) StdoutLine: {'line': b'[  4%] Built target ee106f26__rosidl_generator_type_description\n'}
+[30.498974] (-) TimerEvent: {}
+[30.558142] (ee106f26) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[30.574047] (ee106f26) StdoutLine: {'line': b'[  6%] Built target ee106f26__rs\n'}
+[30.599120] (-) TimerEvent: {}
+[30.605976] (ee106f26) StdoutLine: {'line': b'running egg_info\n'}
+[30.608578] (ee106f26) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[30.611141] (ee106f26) StdoutLine: {'line': b'creating ee106f26.egg-info\n'}
+[30.630020] (ee106f26) StdoutLine: {'line': b'writing ee106f26.egg-info/PKG-INFO\n'}
+[30.640771] (ee106f26) StdoutLine: {'line': b'writing dependency_links to ee106f26.egg-info/dependency_links.txt\n'}
+[30.651911] (ee106f26) StdoutLine: {'line': b'writing top-level names to ee106f26.egg-info/top_level.txt\n'}
+[30.699258] (-) TimerEvent: {}
+[30.786046] (ee106f26) StdoutLine: {'line': b"writing manifest file 'ee106f26.egg-info/SOURCES.txt'\n"}
+[30.799432] (-) TimerEvent: {}
+[30.872825] (ee106f26) StdoutLine: {'line': b"reading manifest file 'ee106f26.egg-info/SOURCES.txt'\n"}
+[30.899588] (-) TimerEvent: {}
+[30.912769] (ee106f26) StdoutLine: {'line': b"writing manifest file 'ee106f26.egg-info/SOURCES.txt'\n"}
+[30.969111] (ee106f26) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_ee106f26_egg\n'}
+[30.999700] (-) TimerEvent: {}
+[31.100706] (-) TimerEvent: {}
+[31.157159] (ee106f26) StdoutLine: {'line': b'[  8%] Built target ee106f26__cpp\n'}
+[31.200877] (-) TimerEvent: {}
+[31.301773] (-) TimerEvent: {}
+[31.402924] (-) TimerEvent: {}
+[31.434519] (ee106f26) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom__description.c.o\x1b[0m\n'}
+[31.445172] (ee106f26) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom__functions.c.o\x1b[0m\n'}
+[31.460933] (ee106f26) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom__type_support.c.o\x1b[0m\n'}
+[31.471663] (ee106f26) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom_new__description.c.o\x1b[0m\n'}
+[31.481204] (ee106f26) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom_new__functions.c.o\x1b[0m\n'}
+[31.490802] (ee106f26) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom_new__type_support.c.o\x1b[0m\n'}
+[31.503064] (-) TimerEvent: {}
+[31.604220] (-) TimerEvent: {}
+[31.706011] (-) TimerEvent: {}
+[31.777780] (ee106f26) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libee106f26__rosidl_generator_c.so\x1b[0m\n'}
+[31.806132] (-) TimerEvent: {}
+[31.907505] (-) TimerEvent: {}
+[32.008821] (-) TimerEvent: {}
+[32.110057] (-) TimerEvent: {}
+[32.182415] (ee106f26) StdoutLine: {'line': b'[ 24%] Built target ee106f26__rosidl_generator_c\n'}
+[32.210222] (-) TimerEvent: {}
+[32.275034] (ee106f26) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[32.278863] (ee106f26) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[32.284154] (ee106f26) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[32.289994] (ee106f26) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[32.294190] (ee106f26) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[32.299005] (ee106f26) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[32.310416] (-) TimerEvent: {}
+[32.412174] (-) TimerEvent: {}
+[32.513953] (-) TimerEvent: {}
+[32.615197] (-) TimerEvent: {}
+[32.717189] (-) TimerEvent: {}
+[32.789073] (ee106f26) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ee106f26/msg/ee106_lab_custom__type_support.cpp.o\x1b[0m\n'}
+[32.794525] (ee106f26) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_c.dir/rosidl_typesupport_c/ee106f26/msg/ee106_lab_custom__type_support.cpp.o\x1b[0m\n'}
+[32.800105] (ee106f26) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ee106f26/msg/ee106_lab_custom_new__type_support.cpp.o\x1b[0m\n'}
+[32.804422] (ee106f26) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_c.dir/rosidl_typesupport_c/ee106f26/msg/ee106_lab_custom_new__type_support.cpp.o\x1b[0m\n'}
+[32.817313] (-) TimerEvent: {}
+[32.919231] (-) TimerEvent: {}
+[32.943903] (ee106f26) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/ee106f26__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ee106f26/msg/detail/ee106_lab_custom__type_support.c.o\x1b[0m\n'}
+[32.948314] (ee106f26) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/ee106f26__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ee106f26/msg/detail/ee106_lab_custom_new__type_support.c.o\x1b[0m\n'}
+[32.977228] (ee106f26) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ee106f26/msg/detail/ee106_lab_custom__type_support.cpp.o\x1b[0m\n'}
+[32.986055] (ee106f26) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ee106f26/msg/detail/ee106_lab_custom_new__type_support.cpp.o\x1b[0m\n'}
+[32.990502] (ee106f26) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ee106f26/msg/detail/ee106_lab_custom__type_support_c.cpp.o\x1b[0m\n'}
+[33.013794] (ee106f26) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ee106f26/msg/detail/ee106_lab_custom_new__type_support_c.cpp.o\x1b[0m\n'}
+[33.113126] (-) TimerEvent: {}
+[33.113883] (ee106f26) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ee106f26/msg/detail/dds_fastrtps/ee106_lab_custom__type_support.cpp.o\x1b[0m\n'}
+[33.118895] (ee106f26) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ee106f26/msg/detail/dds_fastrtps/ee106_lab_custom_new__type_support.cpp.o\x1b[0m\n'}
+[33.213334] (-) TimerEvent: {}
+[33.251455] (ee106f26) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libee106f26__rosidl_typesupport_c.so\x1b[0m\n'}
+[33.313630] (-) TimerEvent: {}
+[33.415045] (-) TimerEvent: {}
+[33.472074] (ee106f26) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libee106f26__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[33.515414] (-) TimerEvent: {}
+[33.593272] (ee106f26) StdoutLine: {'line': b'[ 68%] Built target ee106f26__rosidl_typesupport_c\n'}
+[33.615583] (-) TimerEvent: {}
+[33.718505] (-) TimerEvent: {}
+[33.847836] (-) TimerEvent: {}
+[33.905057] (ee106f26) StdoutLine: {'line': b'[ 68%] Built target ee106f26__rosidl_typesupport_introspection_c\n'}
+[33.948554] (-) TimerEvent: {}
+[34.063538] (-) TimerEvent: {}
+[34.172949] (-) TimerEvent: {}
+[34.274587] (-) TimerEvent: {}
+[34.375825] (-) TimerEvent: {}
+[34.477553] (-) TimerEvent: {}
+[34.578912] (-) TimerEvent: {}
+[34.681671] (-) TimerEvent: {}
+[34.783070] (-) TimerEvent: {}
+[34.884554] (-) TimerEvent: {}
+[34.985806] (-) TimerEvent: {}
+[35.087131] (-) TimerEvent: {}
+[35.188754] (-) TimerEvent: {}
+[35.290116] (-) TimerEvent: {}
+[35.392130] (-) TimerEvent: {}
+[35.493867] (-) TimerEvent: {}
+[35.595506] (-) TimerEvent: {}
+[35.697369] (-) TimerEvent: {}
+[35.799759] (-) TimerEvent: {}
+[35.911693] (-) TimerEvent: {}
+[36.014707] (-) TimerEvent: {}
+[36.117595] (-) TimerEvent: {}
+[36.220206] (-) TimerEvent: {}
+[36.323245] (-) TimerEvent: {}
+[36.426381] (-) TimerEvent: {}
+[36.531849] (-) TimerEvent: {}
+[36.702492] (-) TimerEvent: {}
+[38.087999] (-) TimerEvent: {}
+[38.221465] (-) TimerEvent: {}
+[38.325489] (ee106f26) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libee106f26__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[38.334342] (-) TimerEvent: {}
+[38.438031] (-) TimerEvent: {}
+[39.368893] (-) TimerEvent: {}
+[39.470860] (-) TimerEvent: {}
+[39.779429] (-) TimerEvent: {}
+[39.832057] (ee106f26) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libee106f26__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[39.861036] (ee106f26) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libee106f26__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[39.866782] (ee106f26) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libee106f26__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[39.879593] (-) TimerEvent: {}
+[39.981026] (-) TimerEvent: {}
+[40.085288] (-) TimerEvent: {}
+[40.492861] (ee106f26) StdoutLine: {'line': b'[ 77%] Built target ee106f26__rosidl_typesupport_cpp\n'}
+[40.499060] (-) TimerEvent: {}
+[40.600925] (-) TimerEvent: {}
+[40.702840] (-) TimerEvent: {}
+[40.708863] (ee106f26) StdoutLine: {'line': b'[ 77%] Built target ee106f26__rosidl_typesupport_introspection_cpp\n'}
+[40.803091] (-) TimerEvent: {}
+[40.805238] (ee106f26) StdoutLine: {'line': b'[ 77%] Built target ee106f26__rosidl_typesupport_fastrtps_c\n'}
+[40.903385] (-) TimerEvent: {}
+[41.006046] (-) TimerEvent: {}
+[41.419281] (-) TimerEvent: {}
+[41.520741] (-) TimerEvent: {}
+[41.622230] (-) TimerEvent: {}
+[41.724087] (-) TimerEvent: {}
+[41.827069] (-) TimerEvent: {}
+[42.225802] (-) TimerEvent: {}
+[42.328099] (-) TimerEvent: {}
+[42.430678] (-) TimerEvent: {}
+[42.534098] (-) TimerEvent: {}
+[42.636144] (-) TimerEvent: {}
+[42.738264] (-) TimerEvent: {}
+[42.751660] (ee106f26) StdoutLine: {'line': b'[ 77%] Built target ee106f26__rosidl_typesupport_fastrtps_cpp\n'}
+[42.838586] (-) TimerEvent: {}
+[42.940625] (-) TimerEvent: {}
+[43.052571] (ee106f26) StdoutLine: {'line': b'[ 77%] Built target ee106f26\n'}
+[43.063505] (-) TimerEvent: {}
+[43.166281] (-) TimerEvent: {}
+[43.514196] (-) TimerEvent: {}
+[43.756089] (-) TimerEvent: {}
+[43.980539] (-) TimerEvent: {}
+[44.180859] (-) TimerEvent: {}
+[44.309699] (-) TimerEvent: {}
+[44.412047] (-) TimerEvent: {}
+[44.564462] (-) TimerEvent: {}
+[44.761494] (-) TimerEvent: {}
+[44.921387] (-) TimerEvent: {}
+[45.263552] (-) TimerEvent: {}
+[46.168035] (-) TimerEvent: {}
+[46.336558] (-) TimerEvent: {}
+[48.008810] (-) TimerEvent: {}
+[48.249135] (-) TimerEvent: {}
+[48.560285] (-) TimerEvent: {}
+[48.832496] (-) TimerEvent: {}
+[49.108288] (-) TimerEvent: {}
+[49.366786] (ee106f26) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[50.090763] (-) TimerEvent: {}
+[50.270854] (-) TimerEvent: {}
+[50.441452] (-) TimerEvent: {}
+[50.832265] (-) TimerEvent: {}
+[50.945197] (-) TimerEvent: {}
+[51.205458] (-) TimerEvent: {}
+[51.356059] (-) TimerEvent: {}
+[51.712108] (-) TimerEvent: {}
+[52.187548] (-) TimerEvent: {}
+[52.535169] (-) TimerEvent: {}
+[53.146695] (-) TimerEvent: {}
+[53.470408] (-) TimerEvent: {}
+[53.839433] (-) TimerEvent: {}
+[54.053474] (-) TimerEvent: {}
+[54.193691] (-) TimerEvent: {}
+[54.369493] (-) TimerEvent: {}
+[54.710425] (-) TimerEvent: {}
+[55.017615] (-) TimerEvent: {}
+[58.577206] (-) TimerEvent: {}
+[58.694773] (-) TimerEvent: {}
+[58.800186] (-) TimerEvent: {}

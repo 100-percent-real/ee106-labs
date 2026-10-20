@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-78006e74ed83c4c22044.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "ee106f26__py",
+					"jsonFile" : "directory-ee106f26__py-f830740f2dac1a5cd160.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/ee106_ws/src/build/ee106f26/ee106f26__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "ee106f26__rs",
+					"jsonFile" : "directory-ee106f26__rs-7b36b5c2697812a535fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/ee106_ws/src/build/ee106f26/ee106f26__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "ee106f26",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ee106f26_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ee106f26_egg-074dfa38595980025efb.json",
+					"name" : "ament_cmake_python_build_ee106f26_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ee106f26::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ee106f26-b817a8fe72f1fcf6399c.json",
+					"name" : "ament_cmake_python_copy_ee106f26",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26-6ff5e7a8c9af56af5386.json",
+					"name" : "ee106f26",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26__cpp-ffff7fc66b79fdaab3cb.json",
+					"name" : "ee106f26__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ee106f26__py::@0ef2782eb064395a51a5",
+					"jsonFile" : "target-ee106f26__py-0ec1d86fd92a7c0359bc.json",
+					"name" : "ee106f26__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26__rosidl_generator_c-63fd610c76806574db83.json",
+					"name" : "ee106f26__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26__rosidl_generator_py-e8386b77629ef44becd3.json",
+					"name" : "ee106f26__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26__rosidl_generator_type_description-e211e8172cd26aeba8df.json",
+					"name" : "ee106f26__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26__rosidl_typesupport_c-f7bc751ebdd6524ed27f.json",
+					"name" : "ee106f26__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26__rosidl_typesupport_cpp-dbcd173cb7c782a15974.json",
+					"name" : "ee106f26__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26__rosidl_typesupport_fastrtps_c-a93855472604a25d304b.json",
+					"name" : "ee106f26__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26__rosidl_typesupport_fastrtps_cpp-f7eb2999fd833d69a967.json",
+					"name" : "ee106f26__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26__rosidl_typesupport_introspection_c-ef65563eaaf6d707bd93.json",
+					"name" : "ee106f26__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26__rosidl_typesupport_introspection_cpp-06be376789739b04ba7e.json",
+					"name" : "ee106f26__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ee106f26__rs::@85902716f0a3e2a1a063",
+					"jsonFile" : "target-ee106f26__rs-be160e971077551175e7.json",
+					"name" : "ee106f26__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26_s__rosidl_typesupport_c-6d3f6a821bcdf1479723.json",
+					"name" : "ee106f26_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26_s__rosidl_typesupport_fastrtps_c-6b6d6a9f03f3396dcacf.json",
+					"name" : "ee106f26_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26_s__rosidl_typesupport_introspection_c-9ce3e6213149a580d6da.json",
+					"name" : "ee106f26_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ee106f26_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ee106f26_uninstall-b47b66a36df48d89e62d.json",
+					"name" : "ee106f26_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3e71c94bd2bed513e0f2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/ee106_ws/src/build/ee106f26",
+		"source" : "/workspace/ee106_ws/src/ee106f26"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,136 @@
+[0.661s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.663s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77ebd1697950>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77ebd18662d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77ebd18662d0>>, mixin_verb=('build',))
+[0.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.978s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/ee106_ws'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee106f26) by extensions ['ignore', 'ignore_ament_install']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee106f26) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee106f26) by extension 'ignore_ament_install'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee106f26) by extensions ['colcon_pkg']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee106f26) by extension 'colcon_pkg'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee106f26) by extensions ['colcon_meta']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee106f26) by extension 'colcon_meta'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee106f26) by extensions ['ros']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee106f26) by extension 'ros'
+[1.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee106f26' with type 'ros.ament_cmake' and name 'ee106f26'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.327s] Level 5:colcon.colcon_core.verb:set package 'ee106f26' build argument 'cmake_args' from command line to 'None'
+[1.328s] Level 5:colcon.colcon_core.verb:set package 'ee106f26' build argument 'cmake_target' from command line to 'None'
+[1.329s] Level 5:colcon.colcon_core.verb:set package 'ee106f26' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'ee106f26' build argument 'cmake_clean_cache' from command line to 'False'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'ee106f26' build argument 'cmake_clean_first' from command line to 'False'
+[1.333s] Level 5:colcon.colcon_core.verb:set package 'ee106f26' build argument 'cmake_force_configure' from command line to 'False'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'ee106f26' build argument 'ament_cmake_args' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'ee106f26' build argument 'catkin_cmake_args' from command line to 'None'
+[1.337s] Level 5:colcon.colcon_core.verb:set package 'ee106f26' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.338s] DEBUG:colcon.colcon_core.verb:Building package 'ee106f26' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ee106_ws/build/ee106f26', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ee106_ws/install/ee106f26', 'merge_install': False, 'path': '/workspace/ee106_ws/src/ee106f26', 'symlink_install': False, 'test_result_base': None}
+[1.339s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ee106_ws/src/ee106f26' with build type 'ament_cmake'
+[1.345s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ee106_ws/src/ee106f26'
+[1.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ee106_ws/build/ee106f26': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ee106_ws/build/ee106f26 -- -j12 -l12
+[107.941s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[107.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[107.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ee106_ws/build/ee106f26' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ee106_ws/build/ee106f26 -- -j12 -l12
+[108.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee106f26)
+[108.136s] Level 1:colcon.colcon_core.environment:checking '/workspace/ee106_ws/install/ee106f26' for CMake module files
+[108.896s] Level 1:colcon.colcon_core.environment:checking '/workspace/ee106_ws/install/ee106f26' for CMake config files
+[109.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee106f26', 'cmake_prefix_path')
+[109.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ee106_ws/install/ee106f26/share/ee106f26/hook/cmake_prefix_path.ps1'
+[109.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ee106_ws/install/ee106f26/share/ee106f26/hook/cmake_prefix_path.dsv'
+[109.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ee106_ws/install/ee106f26/share/ee106f26/hook/cmake_prefix_path.sh'
+[109.827s] Level 1:colcon.colcon_core.environment:checking '/workspace/ee106_ws/install/ee106f26/lib'
+[109.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee106f26', 'ld_library_path_lib')
+[109.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ee106_ws/install/ee106f26/share/ee106f26/hook/ld_library_path_lib.ps1'
+[110.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ee106_ws/install/ee106f26/share/ee106f26/hook/ld_library_path_lib.dsv'
+[110.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ee106_ws/install/ee106f26/share/ee106f26/hook/ld_library_path_lib.sh'
+[110.200s] Level 1:colcon.colcon_core.environment:checking '/workspace/ee106_ws/install/ee106f26/bin'
+[110.209s] Level 1:colcon.colcon_core.environment:checking '/workspace/ee106_ws/install/ee106f26/lib/pkgconfig/ee106f26.pc'
+[110.234s] Level 1:colcon.colcon_core.environment:checking '/workspace/ee106_ws/install/ee106f26/lib/python3.12/site-packages'
+[110.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee106f26', 'pythonpath')
+[110.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ee106_ws/install/ee106f26/share/ee106f26/hook/pythonpath.ps1'
+[110.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ee106_ws/install/ee106f26/share/ee106f26/hook/pythonpath.dsv'
+[110.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ee106_ws/install/ee106f26/share/ee106f26/hook/pythonpath.sh'
+[110.598s] Level 1:colcon.colcon_core.environment:checking '/workspace/ee106_ws/install/ee106f26/bin'
+[110.607s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ee106_ws/install/ee106f26/share/ee106f26/package.ps1'
+[110.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ee106_ws/install/ee106f26/share/ee106f26/package.dsv'
+[110.822s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ee106_ws/install/ee106f26/share/ee106f26/package.sh'
+[110.900s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ee106_ws/install/ee106f26/share/ee106f26/package.bash'
+[110.969s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ee106_ws/install/ee106f26/share/ee106f26/package.zsh'
+[111.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ee106_ws/install/ee106f26/share/colcon-core/packages/ee106f26)
+[111.118s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[111.120s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[111.123s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[111.127s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[111.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[111.206s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[111.207s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[111.208s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[111.308s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[111.310s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ee106_ws/install/local_setup.ps1'
+[111.427s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ee106_ws/install/_local_setup_util_ps1.py'
+[111.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ee106_ws/install/setup.ps1'
+[111.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ee106_ws/install/local_setup.sh'
+[111.648s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ee106_ws/install/_local_setup_util_sh.py'
+[111.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ee106_ws/install/setup.sh'
+[111.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ee106_ws/install/local_setup.bash'
+[111.852s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ee106_ws/install/setup.bash'
+[111.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ee106_ws/install/local_setup.zsh'
+[111.983s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ee106_ws/install/setup.zsh'

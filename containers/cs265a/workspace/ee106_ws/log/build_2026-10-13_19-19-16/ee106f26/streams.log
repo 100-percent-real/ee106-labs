@@ -1,0 +1,104 @@
+[0.131s] Invoking command in '/workspace/ee106_ws/build/ee106f26': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ee106_ws/src/ee106f26 -DCMAKE_INSTALL_PREFIX=/workspace/ee106_ws/install/ee106f26
+[0.443s] -- The C compiler identification is GNU 13.3.0
+[0.730s] -- The CXX compiler identification is GNU 13.3.0
+[0.801s] -- Detecting C compiler ABI info
+[1.945s] -- Detecting C compiler ABI info - done
+[2.071s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.074s] -- Detecting C compile features
+[2.076s] -- Detecting C compile features - done
+[2.126s] -- Detecting CXX compiler ABI info
+[3.262s] -- Detecting CXX compiler ABI info - done
+[3.391s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.395s] -- Detecting CXX compile features
+[3.398s] -- Detecting CXX compile features - done
+[3.491s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.729s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.556s] -- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)
+[4.596s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.044s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.214s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.108s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.161s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.491s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.554s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.013s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.076s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[7.364s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[9.616s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[16.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.261s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[18.408s] -- Found PythonExtra: /usr/bin/python3  
+[18.988s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[21.222s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[21.306s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[22.977s] -- Added test 'flake8' to check Python code syntax and style conventions
+[22.979s] -- Configured 'flake8' exclude dirs and/or files: 
+[23.085s] -- Added test 'lint_cmake' to check CMake code style
+[23.128s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[23.613s] -- Added test 'xmllint' to check XML markup files
+[24.404s] -- Configuring done (24.2s)
+[28.006s] -- Generating done (3.3s)
+[29.704s] -- Build files have been written to: /workspace/ee106_ws/build/ee106f26
+[29.715s] Invoked command in '/workspace/ee106_ws/build/ee106f26' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ee106_ws/src/ee106f26 -DCMAKE_INSTALL_PREFIX=/workspace/ee106_ws/install/ee106f26
+[29.733s] Invoking command in '/workspace/ee106_ws/build/ee106f26': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ee106_ws/build/ee106f26 -- -j12 -l12
+[30.184s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[30.215s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[30.245s] [  4%] Built target ament_cmake_python_copy_ee106f26
+[30.457s] [  4%] Built target ee106f26__rosidl_generator_type_description
+[30.557s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[30.573s] [  6%] Built target ee106f26__rs
+[30.605s] running egg_info
+[30.607s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[30.610s] creating ee106f26.egg-info
+[30.629s] writing ee106f26.egg-info/PKG-INFO
+[30.641s] writing dependency_links to ee106f26.egg-info/dependency_links.txt
+[30.651s] writing top-level names to ee106f26.egg-info/top_level.txt
+[30.786s] writing manifest file 'ee106f26.egg-info/SOURCES.txt'
+[30.872s] reading manifest file 'ee106f26.egg-info/SOURCES.txt'
+[30.912s] writing manifest file 'ee106f26.egg-info/SOURCES.txt'
+[30.968s] [  8%] Built target ament_cmake_python_build_ee106f26_egg
+[31.159s] [  8%] Built target ee106f26__cpp
+[31.435s] [ 11%] [32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom__description.c.o[0m
+[31.444s] [ 13%] [32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom__functions.c.o[0m
+[31.461s] [ 15%] [32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom__type_support.c.o[0m
+[31.471s] [ 17%] [32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom_new__description.c.o[0m
+[31.481s] [ 20%] [32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom_new__functions.c.o[0m
+[31.490s] [ 22%] [32mBuilding C object CMakeFiles/ee106f26__rosidl_generator_c.dir/rosidl_generator_c/ee106f26/msg/detail/ee106_lab_custom_new__type_support.c.o[0m
+[31.777s] [ 24%] [32m[1mLinking C shared library libee106f26__rosidl_generator_c.so[0m
+[32.182s] [ 24%] Built target ee106f26__rosidl_generator_c
+[32.274s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[32.279s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[32.285s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.290s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[32.294s] [ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[32.299s] [ 37%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[32.790s] [ 42%] [32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ee106f26/msg/ee106_lab_custom__type_support.cpp.o[0m
+[32.795s] [ 42%] [32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_c.dir/rosidl_typesupport_c/ee106f26/msg/ee106_lab_custom__type_support.cpp.o[0m
+[32.800s] [ 46%] [32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ee106f26/msg/ee106_lab_custom_new__type_support.cpp.o[0m
+[32.804s] [ 46%] [32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_c.dir/rosidl_typesupport_c/ee106f26/msg/ee106_lab_custom_new__type_support.cpp.o[0m
+[32.944s] [ 51%] [32mBuilding C object CMakeFiles/ee106f26__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ee106f26/msg/detail/ee106_lab_custom__type_support.c.o[0m
+[32.949s] [ 51%] [32mBuilding C object CMakeFiles/ee106f26__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ee106f26/msg/detail/ee106_lab_custom_new__type_support.c.o[0m
+[32.981s] [ 55%] [32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ee106f26/msg/detail/ee106_lab_custom__type_support.cpp.o[0m
+[32.986s] [ 57%] [32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ee106f26/msg/detail/ee106_lab_custom_new__type_support.cpp.o[0m
+[33.005s] [ 57%] [32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ee106f26/msg/detail/ee106_lab_custom__type_support_c.cpp.o[0m
+[33.091s] [ 62%] [32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ee106f26/msg/detail/ee106_lab_custom_new__type_support_c.cpp.o[0m
+[33.114s] [ 64%] [32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ee106f26/msg/detail/dds_fastrtps/ee106_lab_custom__type_support.cpp.o[0m
+[33.118s] [ 64%] [32mBuilding CXX object CMakeFiles/ee106f26__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ee106f26/msg/detail/dds_fastrtps/ee106_lab_custom_new__type_support.cpp.o[0m
+[33.255s] [ 66%] [32m[1mLinking CXX shared library libee106f26__rosidl_typesupport_c.so[0m
+[33.472s] [ 68%] [32m[1mLinking C shared library libee106f26__rosidl_typesupport_introspection_c.so[0m
+[33.593s] [ 68%] Built target ee106f26__rosidl_typesupport_c
+[33.910s] [ 68%] Built target ee106f26__rosidl_typesupport_introspection_c
+[38.329s] [ 71%] [32m[1mLinking CXX shared library libee106f26__rosidl_typesupport_cpp.so[0m
+[39.832s] [ 73%] [32m[1mLinking CXX shared library libee106f26__rosidl_typesupport_introspection_cpp.so[0m
+[39.862s] [ 77%] [32m[1mLinking CXX shared library libee106f26__rosidl_typesupport_fastrtps_cpp.so[0m
+[39.867s] [ 77%] [32m[1mLinking CXX shared library libee106f26__rosidl_typesupport_fastrtps_c.so[0m
+[40.494s] [ 77%] Built target ee106f26__rosidl_typesupport_cpp
+[40.710s] [ 77%] Built target ee106f26__rosidl_typesupport_introspection_cpp
+[40.807s] [ 77%] Built target ee106f26__rosidl_typesupport_fastrtps_c
+[42.755s] [ 77%] Built target ee106f26__rosidl_typesupport_fastrtps_cpp
+[43.057s] [ 77%] Built target ee106f26
+[49.999s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
